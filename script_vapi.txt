@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Asistente Inteligente</title>
+  <style>
+    #vapi-assistant {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      width: 400px;
+      height: 600px;
+      border: none;
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+      border-radius: 12px;
+      z-index: 9999;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Contenido de tu página -->
+<h1>Bienvenido a Mi Sitio</h1>
+
+<!-- Iframe del asistente VAPI -->
+<iframe 
+  id="vapi-assistant"
+  src="https://yourassistant.vapi.ai/chat"
+  allow="microphone; camera"
+></iframe>
+
+</body>
+</html>
